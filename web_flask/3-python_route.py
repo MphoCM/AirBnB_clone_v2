@@ -2,9 +2,9 @@
 """ This application listens on 0.0.0.0, port 5000.
 Routes:
 /: display "'Hello HBNB"
-/hbnh: display "HBNH!"
-/c/<text>: display "C" followed by the value\
-        of the text variable\
+/hbnh: display "HBNB!"
+/c/<text>: display “C ” followed by the value\
+    of the text variable\
         (replace underscore _ symbols with a space )
 """
 from flask import Flask
